@@ -4,104 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
-    <style>
-
-      *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-
-        nav {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
-
-        .logo{
-          padding-left: 10px;
-          margin-bottom: 15px;
-        }
-
-        .list-items li{
-          display: inline-block;
-        }
-
-        .list-items li a {
-          color: black;
-          font-size: 18px;
-          font-weight: bold;
-          margin-right: 20px;
-          text-decoration: none;
-          padding: 13px;
-        }
-
-        .list-items li a:hover {
-          background-color: #0f65de;
-          padding: 13px;
-          color: white;
-          font-size: 18px;
-          transition: ease-in 0.5s;
-        }
-
-        .image-container img{
-          width: 100%;
-          filter: brightness(50%);
-        }
-
-        .image-container{
-          position: relative;
-        }
-
-        .header-text{
-          position: absolute;
-          top: 50%;
-          left: 20%;
-          font-size: 30px;
-          color: white;
-          font-style: italic;
-        }
-
-        /* Why us section */
-
-        .why-us{
-          font-size: 40px;
-          text-align: center;
-          margin-top: 10px;
-          margin-bottom: 10px;
-        }
-
-        .why-us-flex-items{
-          display: flex;
-          margin: 20px;
-        }
-
-
-        .icon{
-          height: 100px;
-          width: 200px;
-          background-color: blueviolet;
-          margin-right: 15px;
-        }
-
-        .flex-item{
-          display: flex;
-        }
-
-        .offers-text{
-          margin-right: 10px;
-        }
-
-        .offers-heading{
-          font-size: 25px;
-          font-weight: bold;
-        }
-
-        
-
-    </style>
-
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
+  <style>
+    body {
+      background-color: #f3f3f3;
+    }
+  </style>
+
 <body>
 
   <!-- Navigation bar starts here -->
@@ -126,5 +37,58 @@
           <h1> Contact Us </h1>
       </div>
     </div>
+
+    <div class="contact-container">
+      <h2>Get in touch</h2>
+      <p>We would love to hear from you!. Please fill the form below</p>
+      <form action="#" class="contact-form">
+       
+        <label for="name"> Name </label>
+        <input type="text" name="name" placeholder="Enter Full Name" required>
+
+        <label for="email"> Email </label>
+        <input type="email" name="email" placeholder="Enter Email" required>
+ 
+        <label for="subject"> Subject </label>
+        <input type="text" name="subject" placeholder="Enter Subject" required>
+
+        <label for="message"> Your message </label>
+        <textarea rows="15" name="message" required> </textarea>
+
+        <button type="submit" class="submit-btn"> Send Message</button>
+
+      </form>
+    </div>
+
+  <footer>
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Brainees Travel</h3>
+      <p>Your adventure begins here. <br> Discover new places with us and create unforgettable memories.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p class="contact-link">Email: <a href="#"> info@braineestravel.com</a></p>
+      <p>Phone: +256 234 456799</p>
+      <p>Address: Market Plaza, Room-805</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Brainees Travel. All rights reserved.</p>
+  </div>
+</footer>
+
 </body>
 </html>
