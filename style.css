@@ -72,44 +72,72 @@
     margin-bottom: 10px;
   }
 
-        .why-us-flex-items{
-          display: flex;
-          margin: 20px;
-        }
+  .why-us-flex-items{
+    display: flex;
+    margin: 20px;
+ }
 
 
-        .icon{
-          height: 100px;
-          width: 200px;
-          background-color: blueviolet;
-          margin-right: 15px;
-        }
+  .icon{
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-right: 15px;
+  }
 
-        .flex-item{
-          display: flex;
-        }
+  .flex-item{
+    display: flex;
+  }
 
-        .offers-text{
-          margin-right: 10px;
-        }
+  .offers-text{
+    margin-right: 10px;
+  }
 
-        .offers-heading{
-          font-size: 25px;
-          font-weight: bold;
-        }
+  .offers-heading{
+    font-size: 25px;
+    font-weight: bold;
+  }
 
-        .flex-images{
-          display: flex;
+  .flex-images{
+    display: flex;
          
-        }
+  }
 
-        .flex-card img {
-          width: 100%;
-        }
+  .flex-card img {
+    width: 100%;
+  }
 
-        .flex-card {
-          margin-left: 20px;
-        }
+  .flex-card {
+    margin-left: 20px;
+  }
+
+
+   /* Team section */
+
+  .team-section h1{
+    text-align: center;
+    margin: 40px;
+   }
+
+   .team-member h3, .team-member p {
+    text-align: center;
+   }
+
+  .team-container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .team-member img {
+    width: 100%;
+    height: 80%;
+    
+  }
+
+  .team-member {
+    margin-left: 20px;
+  }    
+
   
   /* Contact us section */
 
@@ -158,25 +186,22 @@
     background-color: #17a2b8;
     margin-top: 15px;
     cursor: pointer;
+    border: none;
   }
-
 
 
   /* Footer section */
 
-  .travel-footer {
+footer {
   background-color: #1e3d59;
   color: #f1f1f1;
-  padding: 40px 20px 20px;
-  font-family: 'Arial', sans-serif;
+  padding: 40px 20px 20px 20px;
 }
 
 .footer-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 10px 40px 40px 10px;
 }
 
 
@@ -196,14 +221,8 @@
   text-decoration: none;
 }
 
-.contact-link a :hover{
-  color: white;
-  text-decoration: underline;
-}
-
 .footer-links ul {
   list-style: none;
-  padding: 0;
 }
 
 .footer-links li {
@@ -222,7 +241,7 @@
 .footer-bottom {
   text-align: center;
   padding-top: 20px;
-  border-top: 1px solid #444;
+  border-top: 1px solid black;
   margin-top: 20px;
   font-size: 14px;
 }
