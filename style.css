@@ -71,28 +71,53 @@
 
     /* Why us section */
 
-  .why-us{
-    font-size: 40px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+    .why-choose-us {
+      text-align: center;
+      padding: 60px 20px 60px 20px;
+      background-color: #fff;
+    }
 
-  .why-us-flex-items{
-    display: flex;
-    margin: 20px;
- }
+    .why-choose-us h2 {
+      font-size: 40px;
+      margin-bottom: 40px;
+      color: #333;
+    }
 
+    .why-us-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
 
-  .icon{
-    height: 100px;
-    width: 200px;
-    background-color: blueviolet;
-    margin-right: 15px;
-  }
+    .why-card {
+      background: #f0f4f8;
+      padding: 30px;
+      border-radius: 12px;
+      width: 280px;
+    }
+
+    .why-card i {
+      font-size: 40px;
+      color: #007BFF;
+      margin-bottom: 20px;
+    }
+
+    .why-card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .why-card p {
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    /* Popular destinations */
 
   .flex-item{
     display: flex;
+    align-content: center;
   }
 
   .offers-text{
@@ -104,18 +129,52 @@
     font-weight: bold;
   }
 
-  .flex-images{
+  /* Tour Packages Section */
+
+  .tour-packages-heading{
+    font-size: 40px;
+      margin-bottom: 40px;
+      color: #333;
+      text-align: center;
+  }
+
+  .tour-package-container{
     display: flex;
          
   }
 
-  .flex-card img {
+  .tour-package-card img {
     width: 100%;
   }
 
-  .flex-card {
+  .tour-package-card {
     margin-left: 20px;
   }
+
+  .tour-package-card h3 ,.tour-package-card h5{
+    margin-left: 20px;
+  }
+
+
+    /* Popular destination */
+
+    .destination-of-the-month-container{
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .destination-of-the-month-container h2{
+      margin-top: 60px;
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 40px;
+    }
+
+    .popular-destinations-intro {
+    text-align: center;
+    margin: 40px;
+    font-style: italic;
+   }
 
 
    /* Team section */
@@ -186,13 +245,13 @@
     }
 
     .destinations-content h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      font-size: 32px;
+      margin-bottom: 16px;
       color: #333;
     }
 
     .destinations-content p {
-      font-size: 1rem;
+      font-size: 16px;
       color: grey;
     }
 
