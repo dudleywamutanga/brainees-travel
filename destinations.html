@@ -4,102 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinations</title>
-    <style>
-
-      *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-
-        nav {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        }
-
-        .logo{
-          padding-left: 10px;
-          margin-bottom: 15px;
-        }
-
-        .list-items li{
-          display: inline-block;
-        }
-
-        .list-items li a {
-          color: black;
-          font-size: 18px;
-          font-weight: bold;
-          margin-right: 20px;
-          text-decoration: none;
-          padding: 13px;
-        }
-
-        .list-items li a:hover {
-          background-color: #0f65de;
-          padding: 13px;
-          color: white;
-          font-size: 18px;
-          transition: ease-in 0.5s;
-        }
-
-        .image-container img{
-          width: 100%;
-          filter: brightness(50%);
-        }
-
-        .image-container{
-          position: relative;
-        }
-
-        .header-text{
-          position: absolute;
-          top: 50%;
-          left: 20%;
-          font-size: 30px;
-          color: white;
-          font-style: italic;
-        }
-
-        /* Why us section */
-
-        .why-us{
-          font-size: 40px;
-          text-align: center;
-          margin-top: 10px;
-          margin-bottom: 10px;
-        }
-
-        .why-us-flex-items{
-          display: flex;
-          margin: 20px;
-        }
-
-
-        .icon{
-          height: 100px;
-          width: 200px;
-          background-color: blueviolet;
-          margin-right: 15px;
-        }
-
-        .flex-item{
-          display: flex;
-        }
-
-        .offers-text{
-          margin-right: 10px;
-        }
-
-        .offers-heading{
-          font-size: 25px;
-          font-weight: bold;
-        }
-
-        
-
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="images/logo.jpeg" rel="shortcut icon"/>
 
 </head>
 <body>
@@ -121,10 +27,105 @@
     </nav> 
 
      <div class="image-container">
-      <img src="images/carousel-1.jpg" alt="Header pic">
+      <img src="images/queen-elizabeth-national-park-elephant.jpg" alt="Header pic">
       <div class="header-text">
-          <h1> Destinations </h1>
+          <h1> Tour Destinations </h1>
       </div>
     </div>
+
+        <section class="destinations-section">
+          <h1>Our Destinations</h1>
+          <p class="destinations-intro">At Brainees travel we design the very best custom travel across East Africa. Thanks to our strong relationships with hundreds of partners around the region and decades of personal experience at every camp, lodge, and destination we sell, our clients return to Brainees Travel again and again for custom, highly curated travel experiences. <br> <b>Discover for yourself. Get started planning today!</b> 
+         </section>
+
+
+    <section class="destinations-container">
+      <div class="destinations-image">
+        <img src="images/bird2.jpg" alt="Gorilla in Uganda" />
+      </div>
+
+      <div class="destinations-content">
+        <h2>Uganda</h2>
+        <p>
+          Uganda is an emerald, undulating and raised destination with many lakes and mountains.
+          Uganda’s appeal falls in its straightforwardness. Infrastructure is limited but growing,
+          and there is now a good range of safari accommodations and city-based hotels.
+        </p>
+      <a href="#" class="btn">EXPLORE MORE</a>
+    </div>
+  </section>
+
+   <section class="destinations-container">
+      <div class="destinations-image">
+        <img src="images/bird2.jpg" alt="Gorilla in Uganda" />
+      </div>
+
+      <div class="destinations-content">
+        <h2>Rwanda</h2>
+        <p>
+          This is Africa’s serene and most nearby, gorilla trekking is the main draw card of a Rwandan safari. After arriving at the capital city of Kigali, you are only a few hours drive away from the mythical Volcanoes National Park and its familiar but still wild gorilla families.
+        </p>
+      <a href="#" class="btn">EXPLORE MORE</a>
+    </div>
+  </section>
+
+   <section class="destinations-container">
+      <div class="destinations-image">
+        <img src="images/bird2.jpg" alt="Gorilla in Uganda" />
+      </div>
+
+      <div class="destinations-content">
+        <h2>Kenya</h2>
+        <p>
+          Experience a safari vacation in Kenya, the place where safari travel originated. The best Kenya tours and safaris include Big 5 game viewing, natural beauty, cultural encounters, and the tropical beaches of the Kenyan coast.
+        </p>
+      <a href="#" class="btn">EXPLORE MORE</a>
+    </div>
+  </section>
+
+   <section class="destinations-container">
+      <div class="destinations-image">
+        <img src="images/bird2.jpg" alt="Gorilla in Uganda" />
+      </div>
+
+      <div class="destinations-content">
+        <h2>Tanzania</h2>
+        <p>
+          Tanzania is well known for its diversity of wildlife, cultures and landscapes. From the classic savannah destinations of the Serengeti, Tarangire and Ngorongoro Crater to the beaches and coral reefs of Zanzibar and the tropical coast, a Tanzania safari holiday delivers one massive experience after another.
+        </p>
+      <a href="#" class="btn">EXPLORE MORE</a>
+    </div>
+  </section>
+
+  <footer>
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Brainees Travel</h3>
+      <p>Your adventure begins here. <br> Discover new places with us and create unforgettable memories.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p class="contact-link">Email: <a href="#"> info@braineestravel.com</a></p>
+      <p>Phone: +256 234 456799</p>
+      <p>Address: Market Plaza, Room-805</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Brainees Travel. All rights reserved.</p>
+  </div>
+</footer>
+
 </body>
 </html>
