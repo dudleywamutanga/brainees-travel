@@ -9,7 +9,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family:poppins;
+    
   } 
+
+  body {
+     background-color: #f3f3f3;
+  }
  
  
 /* Header Area */
@@ -43,6 +48,7 @@
     padding: 13px;
     color: white;
     transition: ease-in 0.5s;
+    border-radius: 5px;
   }
 
   .image-container img{
@@ -117,6 +123,13 @@
   .team-section h1{
     text-align: center;
     margin: 40px;
+    font-size: 40px;
+   }
+
+   .team-intro {
+    text-align: center;
+    margin: 40px;
+    font-style: italic;
    }
 
    .team-member h3, .team-member p {
@@ -138,6 +151,65 @@
     margin-left: 20px;
   }    
 
+
+  /* Destinations section */
+
+    .destinations-section h1{
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+   }
+
+   .destinations-intro {
+    text-align: center;
+    margin: 40px;
+    font-style: italic;
+   }
+
+    .destinations-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     margin-top: 75px;
+     margin-bottom: 75px;
+    }
+
+    .destinations-image img {
+      width: 90%;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-right: 40px;
+    }
+
+    .destinations-content {
+      width: 500px;
+    }
+
+    .destinations-content h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    .destinations-content p {
+      font-size: 1rem;
+      color: grey;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px 10px 20px;
+      background-color: #00796b;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    .btn:hover {
+      background-color: #004d40;
+    }
   
   /* Contact us section */
 
