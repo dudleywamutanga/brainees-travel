@@ -18,11 +18,13 @@
  
  
 /* Header Area */
+/* TODO */
+/* jordan wants a sticky nav bar */
 
   nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
   }
 
   .logo{
@@ -30,7 +32,7 @@
     margin-bottom: 15px;
   }
 
-  .list-items li{
+   .list-items li{
     display: inline-block;
   }
 
@@ -40,16 +42,17 @@
     font-weight: bold;
     margin-right: 20px;
     text-decoration: none;
-    padding: 13px;
-  }
+    /* padding: 13px; */
+  } 
+
 
   .list-items li a:hover {
     background-color: #0f65de;
     padding: 13px;
-    color: white;
-    transition: ease-in 0.5s;
-    border-radius: 5px;
-  }
+    /* color: white; */
+    /* transition: ease-in 0.5s; */
+    /* border-radius: 5px; */
+  } 
 
   .image-container img{
     width: 100%;
@@ -110,7 +113,7 @@
 
     .why-card p {
       color: #555;
-      font-size: 0.95rem;
+      font-size: 15px;
     }
 
     /* Popular destinations */
@@ -235,7 +238,6 @@
 
     .destinations-image img {
       width: 90%;
-      object-fit: cover;
       border-radius: 8px;
       margin-right: 40px;
     }
