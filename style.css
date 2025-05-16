@@ -42,17 +42,18 @@
     font-weight: bold;
     margin-right: 20px;
     text-decoration: none;
-    /* padding: 13px; */
-  } 
+     padding: 13px; 
 
-
+  }
   .list-items li a:hover {
     background-color: #0f65de;
     padding: 13px;
-    /* color: white; */
-    /* transition: ease-in 0.5s; */
-    /* border-radius: 5px; */
+    color: white;
+     transition: ease-in 0.5s; 
+     border-radius: 5px;
   } 
+
+
 
   .image-container img{
     width: 100%;
@@ -179,6 +180,70 @@
     font-style: italic;
    }
 
+   /* About us section */
+
+    .about-general-content {
+      display: flex;
+    }
+
+    .about-us-intro-image img{
+      width: 100%;
+      padding: 30px;
+    }
+
+    .about-us-intro-text {
+      width: 100%;
+      padding: 30px;
+    }
+
+    .about-us-intro-text h2 {
+      margin-top: 60px;
+      margin-bottom: 40px;
+      text-transform: capitalize;
+    }
+
+    .about-us-intro-text p {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .get-in-touch-btn{
+      padding: 15px;
+      background-color: grey;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .brainees-experience h2{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    /* Brainees Experience */
+
+    .brainees-experience p {
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-bottom: 40px;
+    }
+
+    .brainees-experience img {
+      width: 100%;
+    }
+
+    /* Why we are loved */
+    .why-we-are-loved h2{
+      margin-left: 60px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+
+    .why-we-are-loved p {
+      margin-left: 60px;
+      margin-bottom: 30px;
+    }
 
    /* Team section */
 
@@ -206,7 +271,6 @@
   .team-member img {
     width: 100%;
     height: 80%;
-    
   }
 
   .team-member {
