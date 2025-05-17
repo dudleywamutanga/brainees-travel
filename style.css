@@ -117,7 +117,9 @@
       font-size: 15px;
     }
 
-    /* Popular destinations */
+    /* why us end */
+
+    /* Popular destinations start */
 
   .flex-item{
     display: flex;
@@ -132,6 +134,10 @@
     font-size: 25px;
     font-weight: bold;
   }
+
+  /* Popular destinations end*/
+
+
 
   /* Tour Packages Section */
 
@@ -209,11 +215,20 @@
 
     .get-in-touch-btn{
       padding: 15px;
-      background-color: grey;
+      background-color: #00796b;
       color: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      transition: ease-in 0.5s;
+    }
+
+    .get-in-touch-btn:hover{
+      background-color: #004d40;
+    }
+
+    .get-in-touch-btn::after{
+      background-color: #053983;
     }
 
     .brainees-experience h2{
@@ -416,6 +431,11 @@ footer {
 .contact-link a{
   color: white;
   text-decoration: none;
+}
+
+.contact-link a:hover{
+  color: white;
+  text-decoration: underline;
 }
 
 .footer-links ul {
