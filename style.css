@@ -159,6 +159,7 @@
 
   .tour-package-card {
     margin-left: 20px;
+    width: 33.333%;
   }
 
   .tour-package-card h3 ,.tour-package-card h5{
@@ -281,6 +282,9 @@
   .team-container{
     display: flex;
     justify-content: space-evenly;
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .team-member img {
@@ -289,7 +293,7 @@
   }
 
   .team-member {
-    margin-left: 20px;
+    width: 25%;
   }    
 
 
